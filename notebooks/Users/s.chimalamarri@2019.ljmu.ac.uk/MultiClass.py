@@ -74,3 +74,6 @@ cvmodel = cv.fit(trainingData)
 
 predictions_cv= cvmodel.transform(testData)
 evaluator.evaluate(predictions_cv)
+
+# COMMAND ----------
+
